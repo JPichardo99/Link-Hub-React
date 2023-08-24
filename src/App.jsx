@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillGithub,  AiFillLinkedin } from "react-icons/ai";
 import { SiCredly, SiIndeed } from "react-icons/si";
 import { Link } from "react-router-dom";
-
+import { HiDesktopComputer } from "react-icons/hi";
 const App = () => {
   const data = [
     {
@@ -28,6 +28,12 @@ const App = () => {
       icon: <SiCredly size={24} />,
       name: "Credly",
       url: "https://www.credly.com/users/jesus-alejandro-pichardo-buenrostro/badges",
+    },
+    {
+      id: 5,
+      icon: <HiDesktopComputer size={24} />,
+      name: "Portfolio website",
+      url: "https://jpichardo99.vercel.app",
     }
 
   ];
