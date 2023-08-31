@@ -19,18 +19,12 @@ const App = () => {
     },
     {
       id: 3,
-      icon: <SiIndeed size={24} />,
-      name: "Indeed",
-      url: "https://profile.indeed.com/p/jesusalejandrop-c9t1n2j",
-    },
-    {
-      id: 4,
       icon: <SiCredly size={24} />,
       name: "Credly",
       url: "https://www.credly.com/users/jesus-alejandro-pichardo-buenrostro/badges",
     },
     {
-      id: 5,
+      id: 4,
       icon: <HiDesktopComputer size={24} />,
       name: "Portfolio website",
       url: "https://jpichardo99.vercel.app",
@@ -39,6 +33,20 @@ const App = () => {
   ];
   return (
     <div className="gradient-background flex items-center justify-center flex-col">
+      {/* ----------- Circles animate------- */}
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      {/* ------------- Circles animate------- */}
       <div className=" flex items-center justify-center flex-col ">
         <div className=" flex items-center justify-center gap-2 flex-col">
           <img
